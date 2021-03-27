@@ -1,0 +1,44 @@
+.my-btn{
+background-color: #FF0000 !important;
+    width: 100%;
+height: 78px;
+}
+
+@media only screen and (max-width:780px){
+   /* .my-btn{ width: 169px;
+    height: 38px;
+   } */
+}
+@font-face{
+    font-family:mont-med;
+    src:url('../../assets/font-family/Montserrat/Montserrat-Medium.ttf')
+  }
+
+.input-bar{
+    width:100%;
+height: 78px;
+background: #F8F8F866 0% 0% no-repeat padding-box;
+border-radius: 13px;
+opacity: 1;
+color:#FFFFFF;
+font: normal normal normal 25px/30px mont-med;
+border: 1px solid #F2F2F2;
+box-sizing: border-box;
+padding: 5px 15px;
+/* padding-left: 10px; */
+}
+
+input.input-bar::placeholder{
+    color:white  !important;
+    font-size: 18px;
+    letter-spacing: 2px;
+
+    opacity: 1;
+}
+.heading-sign{
+    font-size: 64px;
+    line-height: 78px;
+}
+.para-sign{
+    font: normal normal normal 19px/23px mont-med;
+}
